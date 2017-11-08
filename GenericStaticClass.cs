@@ -17,8 +17,7 @@ namespace Generics
             {
                 string word = entry.Key;
                 int frequency = entry.Value;
-                //Console.WriteLine($"{word}: {frequency}");
-                Console.WriteLine("{0}:{1}", word, frequency);
+                Console.WriteLine($"{word}: {frequency}");
             }
         }
 
