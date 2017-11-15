@@ -24,5 +24,10 @@ namespace Generics
         {
             FearsomeGenericMethod.Demo();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            NonGenericTypeWithGenericMethod.PrintList();
+        }
     }
 }

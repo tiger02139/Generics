@@ -54,7 +54,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GenericStaticClass.cs" />
+    <Compile Include="Lists.cs" />
     <Compile Include="NonGenericStaticClass.cs" />
+    <Compile Include="NonGenericTypeWithGenericMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
