@@ -75,7 +75,7 @@ namespace Generics
                 Console.WriteLine(node);
             }
 
-            string ourPlanet = linkedList.ElementAt(2);
+            string ourPlanet = linkedList.ElementAt<string>(2);
             Console.WriteLine($"Our planet is {ourPlanet}");
 
         }
