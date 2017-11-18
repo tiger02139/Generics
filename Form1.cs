@@ -29,5 +29,12 @@ namespace Generics
         {
             NonGenericTypeWithGenericMethod.PrintList();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Lists lists = new Lists();
+
+            lists.PlayWithLinkedList();
+        }
     }
 }
